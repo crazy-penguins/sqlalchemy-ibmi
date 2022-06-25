@@ -10,3 +10,9 @@ dist
 .idea/
 docs/_*
 poetry.lock
+/bin/
+/lib/
+/include/
+/lib64
+/pyodbc.pyi
+/pyvenv.cfg
