@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "sqlalchemy-ibmi"
+name = "crazy_ibmi"
 version = "0.9.3-dev"
 description = "SQLAlchemy support for Db2 on IBM i"
 readme = "README.md"
 authors = [
     "Naveen Ram <naveen.ram@ibm.com>",
-    "Kevin Adler <kadler@us.ibm.com>"
+    "Kevin Adler <kadler@us.ibm.com>",
+    "Preetam Shingavi <p.shingavi@yahoo.com>",
 ]
 license = "Apache-2.0"
 keywords = ["sqlalchemy", "database", "ibm", "ibmi", "db2"]
