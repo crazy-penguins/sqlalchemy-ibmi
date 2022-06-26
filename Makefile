@@ -5,4 +5,12 @@ setup:
 	source bin/activate \
 	  && python -m pip install -U pip setuptools wheel \
 	  && poetry install 
+build:
+	poetry build
+
+clean:
+	poetry clean
+
+publish:
+	poetry publish
 
