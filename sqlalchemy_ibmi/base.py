@@ -733,7 +733,6 @@ class IBMiDb2Dialect(default.DefaultDialect):
                                sysconst.c.tabname == table_name))
 
         check_consts = []
-        print(query)
         for res in connection.execute(query):
             check_consts.append(
                 {'name': self.normalize_name(res[0]), 'sqltext': res[1]})
@@ -807,8 +806,8 @@ class IBMiDb2Dialect(default.DefaultDialect):
         'database': ('DATABASE', str, None),
         'use_system_naming': ('NAM', to_bool, False),
         'trim_char_fields': ('TRIMCHAR', to_bool, None),
-        'ssl': ('ssl', to_bool, None),
-        'lob_threshold_kb': ('maxfieldlen', str, None),
+        'ssl': ('SSL', to_bool, None),
+        'lob_threshold_kb': ('MAXFIELDLEN', str, None),
     }
 
     DRIVER_KEYWORDS_SPECIAL = {'current_schema', 'library_list'}

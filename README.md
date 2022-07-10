@@ -1,4 +1,4 @@
-[![Latest version released on PyPi](https://img.shields.io/pypi/v/crazy-ibmi.svg)](https://pypi.org/project/crazy-ibmi)
+j[![Latest version released on PyPi](https://img.shields.io/pypi/v/crazy-ibmi.svg)](https://pypi.org/project/crazy-ibmi)
 ![Supported Python Version Badge](https://img.shields.io/pypi/pyversions/crazy-ibmi.svg)
 [![GitHub Actions status | sdras/awesome-actions](https://github.com/crazy-penguins/sqlalchemy-ibmi/workflows/Build%20PR/badge.svg)](https://github.com/crazy-penguins/sqlalchemy-ibmi/actions?workflow=Build+PR)
 [![Documentation Status](https://readthedocs.org/projects/sqlalchemy-ibmi/badge/?version=latest)](https://sqlalchemy-ibmi.readthedocs.io/en/latest/?badge=latest)
